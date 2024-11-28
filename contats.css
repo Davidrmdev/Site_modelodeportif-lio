@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Imagens/pngtree-simple-white-flat-vectors-with-diagonal-cuts-decorative-backdrops-for-your-image_597614.jpg);
+    background-size: 100%;
+    font-family: "Roboto", serif;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 50px;
+    background-color:#182c61;
+    padding: 30px 0px;
+
+}
+h2{
+    font-family: "Lilita One", sans-serif;
+}
+h1{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+#contatos{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 50px;
+}
+img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+ol{
+
+    list-style: none;
+}
+
+form input,
+form textarea,
+form button{
+   display: flex;
+   width: 320px;
+   margin-bottom: 8px;
+   padding: 8px;
+}
+form textarea{
+    resize: none;
+    height: 180px;
+}
+form button{
+    background-color: #182c61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
